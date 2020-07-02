@@ -51,8 +51,8 @@ public class AdminHouseService {
         if (StringUtils.isEmpty(name)) {
             return ResponseUtil.badArgument();
         }
-        String houseSn = house.getHouseSn();
-        if (StringUtils.isEmpty(houseSn)) {
+        int houseId = house.getId();
+        if (StringUtils.isEmpty(houseId)) {
             return ResponseUtil.badArgument();
         }
 
