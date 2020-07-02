@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-api/admin-api.iml" filepath="$PROJECT_DIR$/admin-api/admin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/all.iml" filepath="$PROJECT_DIR$/all/all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all-war/all-war.iml" filepath="$PROJECT_DIR$/all-war/all-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db/db.iml" filepath="$PROJECT_DIR$/db/db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/litemall.iml" filepath="$PROJECT_DIR$/litemall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-api/wx-api.iml" filepath="$PROJECT_DIR$/wx-api/wx-api.iml" />
+    </modules>
+  </component>
+</project>
