@@ -216,9 +216,9 @@ public class HouseService {
             criteria.andIdEqualTo(houseId);
         }
 
-        if (!StringUtils.isEmpty(houseSn)) {
-            criteria.andHouseSnEqualTo(houseSn);
-        }
+//        if (!StringUtils.isEmpty(houseSn)) {
+//            criteria.andHouseSnEqualTo();
+//        }
         if (!StringUtils.isEmpty(name)) {
             criteria.andNameLike("%" + name + "%");
         }
@@ -239,8 +239,11 @@ public class HouseService {
      * @return
      */
     public House findById(Integer id) {
+
         HouseExample example = new HouseExample();
+
         example.or().andIdEqualTo(id).andDeletedEqualTo(false);
+
         return houseMapper.selectOneByExampleWithBLOBs(example);
     }
 

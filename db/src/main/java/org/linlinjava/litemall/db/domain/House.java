@@ -38,7 +38,7 @@ public class House {
      *
      * @mbg.generated
      */
-    private String houseSn;
+    private Integer houseSn;
 
     /**
      *
@@ -288,7 +288,7 @@ public class House {
      *
      * @mbg.generated
      */
-    public String getHouseSn() {
+    public Integer getHouseSn() {
         return houseSn;
     }
 
@@ -300,7 +300,7 @@ public class House {
      *
      * @mbg.generated
      */
-    public void setHouseSn(String houseSn) {
+    public void setHouseSn(Integer houseSn) {
         this.houseSn = houseSn;
     }
 
@@ -1095,7 +1095,7 @@ public class House {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        houseSn("house_sn", "houseSn", "VARCHAR", false),
+        houseSn("house_sn", "houseSn", "INTEGER", false),
         name("name", "name", "VARCHAR", true),
         categoryId("category_id", "categoryId", "INTEGER", false),
         certificate("certificate", "certificate", "VARCHAR", false),

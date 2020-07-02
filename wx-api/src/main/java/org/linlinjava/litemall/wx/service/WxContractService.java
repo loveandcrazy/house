@@ -16,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.lang.System;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -141,6 +142,7 @@ public class WxContractService {
      */
     @Transactional
     public Object submit(Integer userId1, String body) {
+
         if (userId1 == null) {
             return ResponseUtil.unlogin();
         }
@@ -152,6 +154,10 @@ public class WxContractService {
         String end_time = JacksonUtil.parseString(body, "end_time");
         Integer the_price = JacksonUtil.parseInteger(body, "price");
         String id_card1 = JacksonUtil.parseString(body, "idcard1");
+        String province = JacksonUtil.parseString(body, "province");
+        String city = JacksonUtil.parseString(body, "city");
+        String county = JacksonUtil.parseString(body, "county");
+        String detail_address = JacksonUtil.parseString(body, "address_detail");
 
 
         if (id_card1 == null || houseSn == null || start_time == null || end_time == null || the_price == null) {
@@ -168,15 +174,20 @@ public class WxContractService {
         contract.setUserId1(userId1);
         contract.setContractSn(contractService.generateContractSn(userId1));
         contract.setContractStatus(ContractUtil.STATUS_CREATE);
-
         HouseService houseService = new HouseService();
-        House house = houseService.findById(houseSn);
+
+
+//        House house = houseService.findById(1);
 
 
 //        String detailedAddress = house.getProvince() + house.getCity() + house.getCounty() + " " + house.getAddressDetail();
-        contract.setProvince(house.getProvince());
-        contract.setCity(house.getCity());
-        contract.setAddressDetail(house.getAddressDetail());
+//        contract.setProvince(house.getProvince());
+//        contract.setCity(house.getCity());
+//        contract.setAddressDetail(house.getAddressDetail());
+        contract.setProvince(province);
+        contract.setCity(city);
+        contract.setCounty(county);
+        contract.setAddressDetail(detail_address);
         contract.setPrice(price);
 
 

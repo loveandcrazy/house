@@ -52,8 +52,8 @@ public class WxHouseService {
         if (StringUtils.isEmpty(name)) {
             return ResponseUtil.badArgument();
         }
-        String houseSn = house.getHouseSn();
-        if (StringUtils.isEmpty(houseSn)) {
+        int houseId = house.getId();
+        if (StringUtils.isEmpty(houseId)) {
             return ResponseUtil.badArgument();
         }
         // 分类可以不设置，如果设置则需要验证分类存在
