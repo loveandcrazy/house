@@ -1,0 +1,12 @@
+2020-06-28 12:43:38,150 INFO [main] o.l.l.allinone.AllinoneConfigTest [StartupInfoLogger.java : 50] Starting AllinoneConfigTest on DESKTOP-K3MF1R6 with PID 7980 (started by huhaha in C:\Users\huhaha\Desktop\aaa\house\all)
+2020-06-28 12:43:38,152 DEBUG [main] o.l.l.allinone.AllinoneConfigTest [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-28 12:43:38,152 INFO [main] o.l.l.allinone.AllinoneConfigTest [SpringApplication.java : 679] The following profiles are active: db,core,admin,wx
+2020-06-28 12:43:55,446 INFO [main] o.l.l.allinone.AllinoneConfigTest [StartupInfoLogger.java : 59] Started AllinoneConfigTest in 18.327 seconds (JVM running for 20.075)
+2020-06-28 15:42:19,920 INFO [main] o.l.l.allinone.AllinoneConfigTest [StartupInfoLogger.java : 50] Starting AllinoneConfigTest on DESKTOP-K3MF1R6 with PID 2364 (started by huhaha in C:\Users\huhaha\Desktop\aaa\house\all)
+2020-06-28 15:42:19,925 DEBUG [main] o.l.l.allinone.AllinoneConfigTest [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-28 15:42:19,926 INFO [main] o.l.l.allinone.AllinoneConfigTest [SpringApplication.java : 679] The following profiles are active: db,core,admin,wx
+2020-06-28 15:42:38,256 INFO [main] o.l.l.allinone.AllinoneConfigTest [StartupInfoLogger.java : 59] Started AllinoneConfigTest in 19.432 seconds (JVM running for 20.943)
+2020-06-28 15:45:44,142 INFO [main] o.l.l.allinone.AllinoneConfigTest [StartupInfoLogger.java : 50] Starting AllinoneConfigTest on DESKTOP-K3MF1R6 with PID 9664 (started by huhaha in C:\Users\huhaha\Desktop\aaa\house\all)
+2020-06-28 15:45:44,145 DEBUG [main] o.l.l.allinone.AllinoneConfigTest [StartupInfoLogger.java : 53] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-28 15:45:44,146 INFO [main] o.l.l.allinone.AllinoneConfigTest [SpringApplication.java : 679] The following profiles are active: db,core,admin,wx
+2020-06-28 15:46:01,274 INFO [main] o.l.l.allinone.AllinoneConfigTest [StartupInfoLogger.java : 59] Started AllinoneConfigTest in 18.169 seconds (JVM running for 19.552)
